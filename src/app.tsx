@@ -9,7 +9,7 @@ function App() {
   }, [count])
   useEffect(() => {
     if (count === 5) {
-      console.log("count is ", count)
+      console.log('count is ', count)
     }
   }, [count])
   return (
