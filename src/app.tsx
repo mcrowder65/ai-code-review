@@ -1,19 +1,24 @@
+import React from "react"
+import { logger } from "./logger"
 
-import React from "react";
 function App() {
-  
-  const [count, setCount] = React.useState(0);
+  const [count, setCount] = React.useState(0)
 
-  const increment = () => setCount(prevCount => prevCount + 1);
-  const decrement = () => setCount(prevCount => prevCount - 1);
-  
+  const changeCount = (delta: number) => {
+    setCount((prevCount) => {
+      const newCount = prevCount + delta
+      logger(newCount)
+      return newCount
+    })
+  }
+
   return (
     <div>
-      <button onClick={decrement}>-</button>
+      <button onClick={() => changeCount(-1)}>-</button>
       <span>{count}</span>
-      <button onClick={increment}>+</button>
+      <button onClick={() => changeCount(1)}>+</button>
     </div>
-  );
+  )
 }
 
 export default App

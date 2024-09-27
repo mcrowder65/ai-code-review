@@ -30,3 +30,4 @@ test("count is incremented and decremented when + and - buttons are clicked", as
   await userEvent.click(decrementButton)
   expect(count).toHaveTextContent("1")
 })
+
