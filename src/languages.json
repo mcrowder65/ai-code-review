@@ -1,0 +1,59 @@
+{
+  "languages": [
+    {
+      "tag": "en-US",
+      "name": "English (United States)",
+      "translatedName": "English (United States)"
+    },
+    {
+      "tag": "es-ES",
+      "name": "Spanish (Spain)",
+      "translatedName": "Español (España)"
+    },
+    {
+      "tag": "fr-FR",
+      "name": "French (France)",
+      "translatedName": "Français (France)"
+    },
+    {
+      "tag": "de-DE",
+      "name": "German (Germany)",
+      "translatedName": "Deutsch (Deutschland)"
+    },
+    {
+      "tag": "it-IT",
+      "name": "Italian (Italy)",
+      "translatedName": "Italiano (Italia)"
+    },
+    {
+      "tag": "ja-JP",
+      "name": "Japanese (Japan)",
+      "translatedName": "日本語 (日本)"
+    },
+    {
+      "tag": "ko-KR",
+      "name": "Korean (South Korea)",
+      "translatedName": "한국어 (대한민국)"
+    },
+    {
+      "tag": "pt-BR",
+      "name": "Portuguese (Brazil)",
+      "translatedName": "Português (Brasil)"
+    },
+    {
+      "tag": "ru-RU",
+      "name": "Russian (Russia)",
+      "translatedName": "Русский (Россия)"
+    },
+    {
+      "tag": "zh-CN",
+      "name": "Chinese (Simplified, China)",
+      "translatedName": "中文 (简体, 中国)"
+    },
+    {
+      "tag": "zh-TW",
+      "name": "Chinese (Traditional, Taiwan)",
+      "translatedName": "中文 (繁體, 台灣)"
+    }
+  ]
+}
