@@ -13,11 +13,24 @@ function App() {
   }
 
   return (
-    <div>
-      <button onClick={() => changeCount(-1)}>-</button>
-      <span>{count}</span>
-      <button onClick={() => changeCount(1)}>+</button>
-    </div>
+    <>
+      <style>
+        {`
+          div {
+            margin: 8px
+          }
+          button {
+            margin: 4px;
+          }
+          
+          `}
+      </style>
+      <div>
+        <button onClick={() => changeCount(-1)}>-</button>
+        <span>{count}</span>
+        <button onClick={() => changeCount(1)}>+</button>
+      </div>
+    </>
   )
 }
 
